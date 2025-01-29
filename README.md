@@ -11,7 +11,7 @@ Project developed to put new concepts learned in C# into practice.
 
 ```bash
 # clone repository
-git clone https://github.com/devEryckSantos/Stopwatch.git
+git clone https://github.com/devEryckSantos/C-Stopwatch.git
 
 # Run the project in your preferred IDE 😉
 ```
