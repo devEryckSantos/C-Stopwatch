@@ -23,15 +23,26 @@ static void Menu()
         Console.WriteLine("Até quanto deseja contar?");
         int value = int.Parse(Console.ReadLine());
 
-        Console.Clear();
-        Console.WriteLine("Preparando contador...");
-        Thread.Sleep(2000);
-
-        Start(value, op);
+        PreStart(value, op);
     }
 
 
 
+}
+
+static void PreStart(int value, int op)
+{
+    Console.Clear();
+    Console.WriteLine("Ready?");
+    Thread.Sleep(1000);
+    Console.Clear();
+    Console.WriteLine("Set...");
+    Thread.Sleep(1000);
+    Console.Clear();
+    Console.WriteLine("GO!");
+    Thread.Sleep(1000);
+
+    Start(value, op);
 }
 
 static void Start(int time, int op)
